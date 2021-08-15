@@ -17,7 +17,7 @@ const Shipment = () => {
             orderTime: new Date()
         }; 
 
-         fetch('http://localhost:8000/addOrder',{
+         fetch('https://pacific-fjord-13626.herokuapp.com/addOrder',{
              method:'POST',
              headers:{
                 'Content-Type': 'application/json'

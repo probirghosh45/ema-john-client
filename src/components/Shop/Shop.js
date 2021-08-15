@@ -14,7 +14,7 @@ const Shop = () => {
 
  
   useEffect(() => {
-    fetch('http://localhost:8000/products')
+    fetch('https://pacific-fjord-13626.herokuapp.com/products')
     .then(res=>res.json())
     .then(data=>setProducts(data))
   }, [])
@@ -73,7 +73,7 @@ const handleClick = (product) =>{
 useEffect(()=>{
   const savedCart = getDatabaseCart();
   const productKeys = Object.keys(savedCart);
-  fetch('http://localhost:8000/productsByKeys', {
+  fetch('https://pacific-fjord-13626.herokuapp.com/productsByKeys', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json'

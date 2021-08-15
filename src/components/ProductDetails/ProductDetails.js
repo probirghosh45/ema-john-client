@@ -10,7 +10,7 @@ const ProductDetails = () => {
  
 
   useEffect(() => {
-    fetch('http://localhost:8000/product/'+productKey)
+    fetch('https://pacific-fjord-13626.herokuapp.com/product/'+productKey)
     .then(res=>res.json())
     .then(data=>setProduct(data));
 

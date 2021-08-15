@@ -5,7 +5,7 @@ const Inventory = () => {
 
    const handleAddProduct =()=>{
      const product={}  
-     fetch('http://localhost:8000/addProduct',{
+     fetch('https://pacific-fjord-13626.herokuapp.com/addProduct',{
          method:'POST',
          headers:{
              'Content-Type':'application/json'

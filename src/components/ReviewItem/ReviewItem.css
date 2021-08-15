@@ -1,0 +1,9 @@
+.review__product__container{
+    display: flex;
+    border-bottom: 1px solid darkmagenta;
+    padding: 25px;
+}
+
+.product__image__containe img{
+    padding-right: 20px;
+}

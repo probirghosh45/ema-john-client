@@ -1,0 +1,9 @@
+.shopping{
+    display: flex;
+    
+}
+.product__container{
+    width: 70%;
+    border-right:1px solid darkmagenta;
+    /* border-bottom:1px solid darkmagenta; */
+}

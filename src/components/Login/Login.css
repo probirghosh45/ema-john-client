@@ -1,0 +1,62 @@
+.my-form .inp-style {
+  color: white;
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  /* border: none; */
+  /* backdrop-filter: blur(15px); */
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin: 10px 0;
+  outline: white;
+}
+.my-form .inp-style:focus {
+  border: white;
+  outline: white;
+}
+.my-form .inp-style::placeholder {
+  color: rgba(189, 99, 99, 0.993);
+}
+.my-btn-submit {
+  color: white;
+  background-color: #ff6e40 !important;
+  border-radius: 5px;
+  border: none;
+}
+.mini-btn {
+    background: none;
+    color: none;
+    outline: none;
+    border: none;
+    color: #ff6e40;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .mini-btn:hover {
+    color: #eb3c06;
+  }
+  .my-btn-google {
+    color: white;
+    background-color: #2ea81c !important;
+    border-radius: 5px;
+    border: none;
+  }
+  .my-btn-facebook {
+    color: white;
+    background-color: #3a5999 !important;
+    border-radius: 5px;
+    border: none;
+  }
+  .icon {
+    font-size: 1.5rem;
+  }
+  .error {
+    color: rgb(255, 191, 191);
+    font-weight: light;
+  }
+  .success {
+    color: greenyellow;
+    font-weight: light;
+  }
+  

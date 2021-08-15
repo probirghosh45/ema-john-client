@@ -1,0 +1,9 @@
+.review__container{
+    display: flex;
+    
+}
+.selected__product__container{
+    width: 70%;
+    border-right:1px solid darkmagenta;
+    /* border-bottom:1px solid darkmagenta; */
+}
